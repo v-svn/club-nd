@@ -332,3 +332,14 @@ img {
         height: 300px; /* smaller slider for mobile */
     }
 }
+
+/* Prevent Font Change on Translation */
+body {
+    font-family: var(--font-body) !important;
+}
+.page-title, .nav-link, .signature, .marquee-content span, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading) !important;
+}
+font {
+    font-family: inherit !important;
+}

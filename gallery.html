@@ -1,123 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery | Sovereign Club</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Icons for social -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
-    <!-- CSS for Splide Slider -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-    
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons for social -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- CSS for Splide Slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
     <!-- Marquee Left Border -->
     <aside class="announcement-marquee">
-        <div class="marquee-content">
-            <!-- Repeated text -->
-            <span>Sovereign Club</span>
-            <span>Sovereign Club</span>
-            <span>Sovereign Club</span>
-            <span>Sovereign Club</span>
-            <span>Sovereign Club</span>
-            <span>Sovereign Club</span>
-            <span>Sovereign Club</span>
-            <span>Sovereign Club</span>
-        </div>
+      <div class="marquee-content">
+        <!-- Repeated text -->
+        <span>Sovereign Club</span>
+        <span>Sovereign Club</span>
+        <span>Sovereign Club</span>
+        <span>Sovereign Club</span>
+        <span>Sovereign Club</span>
+        <span>Sovereign Club</span>
+        <span>Sovereign Club</span>
+        <span>Sovereign Club</span>
+      </div>
     </aside>
 
     <div class="layout-wrapper">
-        <!-- Mobile Header (Visible only on small screens) -->
-        <header class="mobile-header">
-            <button class="hamburger-btn" aria-label="Toggle Menu">
-                <i class="bi bi-list"></i>
-            </button>
-            <a href="index.html" class="mobile-logo">
-                <img src="assets/images/logo/logo.png" alt="Sovereign Club" style="filter: invert(1);">
-            </a>
-        </header>
+      <!-- Mobile Header (Visible only on small screens) -->
+      <header class="mobile-header">
+        <button class="hamburger-btn" aria-label="Toggle Menu">
+          <i class="bi bi-list"></i>
+        </button>
+        <a href="index.html" class="mobile-logo">
+          <img
+            src="assets/images/logo/logo.png"
+            alt="Sovereign Club"
+            style="filter: invert(1)"
+          />
+        </a>
+      </header>
 
-        <!-- Sidebar Navigation -->
-        <aside class="main-sidebar" id="sidebar">
-            <button class="close-btn" aria-label="Close Menu">
-                <i class="bi bi-x-lg"></i>
-            </button>
-            
-            <div class="sidebar-logo">
-                <a href="index.html">
-                    <img src="assets/images/logo/logo.png" alt="Sovereign Club">
-                </a>
+      <!-- Sidebar Navigation -->
+      <aside class="main-sidebar" id="sidebar">
+        <button class="close-btn" aria-label="Close Menu">
+          <i class="bi bi-x-lg"></i>
+        </button>
+
+        <div class="sidebar-logo">
+          <a href="index.html">
+            <img src="assets/images/logo/logo.png" alt="Sovereign Club" />
+          </a>
+        </div>
+
+        <nav class="sidebar-nav">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li>
+              <a
+                href="gallery.html"
+                class="nav-link"
+                style="color: var(--color-hover)"
+                >Gallery</a
+              >
+            </li>
+          </ul>
+
+          <ul class="nav-footer-links">
+            <li><a href="index.html">Who are we?</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-social">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <div class="content-container">
+          <header class="page-header">
+            <h1 class="page-title">Gallery</h1>
+          </header>
+
+          <article class="page-body">
+            <!-- Slideshow Section Using Splide -->
+            <div class="splide-container">
+              <section class="splide" aria-label="Gallery Slideshow">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img
+                        src="assets/images/slideshow/xxdyy2_1.png"
+                        alt="Gallery"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/images/slideshow/xxdyy2_2.png"
+                        alt="Gallery"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/images/slideshow/xxdyy2_3.png"
+                        alt="Gallery"
+                      />
+                    </li>
+                    <!-- Split -->
+                    <li class="splide__slide">
+                      <img
+                        src="assets/images/slideshow/xxdyy1_1.png"
+                        alt="Gallery"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/images/slideshow/xxdyy1_2.png"
+                        alt="Gallery"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/images/slideshow/xxdyy1_3.png"
+                        alt="Gallery"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="assets/images/slideshow/xxdyy1_4.png"
+                        alt="Gallery"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </section>
             </div>
 
-            <nav class="sidebar-nav">
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="gallery.html" class="nav-link" style="color: var(--color-hover);">Gallery</a></li>
-                </ul>
-
-                <ul class="nav-footer-links">
-                    <li><a href="index.html">Who are we?</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-
-            <div class="sidebar-social">
-                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <div class="text-content" style="margin-top: 30px">
+              <p>
+                Explore our collection of drift builds and modified cars from
+                Sovereign Club members. Each vehicle represents our passion for
+                JDM culture, precision drifting, and the unique style that
+                defines our community. From touge-inspired setups to stance
+                perfection, discover the machines that make Sovereign more than
+                just a club.
+              </p>
             </div>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <div class="content-container">
-                <header class="page-header">
-                    <h1 class="page-title">Gallery</h1>
-                </header>
-
-                <article class="page-body">
-                    <!-- Slideshow Section Using Splide -->
-                    <div class="splide-container">
-                        <section class="splide" aria-label="Gallery Slideshow">
-                            <div class="splide__track">
-                                <ul class="splide__list">
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (1).png" alt="Gallery 1"></li>
-                                    <!-- Add more images manually below. For now repeated as placeholders -->
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (2).png" alt="Gallery 2"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (3).png" alt="Gallery 3"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (4).png" alt="Gallery 4"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (5).png" alt="Gallery 5"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (6).png" alt="Gallery 6"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (7).png" alt="Gallery 7"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (8).png" alt="Gallery 8"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (9).png" alt="Gallery 9"></li>
-                                    <li class="splide__slide"><img src="assets/images/slideshow/image (10).png" alt="Gallery 10"></li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-
-                    <div class="text-content" style="margin-top: 30px;">
-                        <p>Explore our collection of drift builds and modified cars from Sovereign Club members. Each vehicle represents our passion for JDM culture, precision drifting, and the unique style that defines our community. From touge-inspired setups to stance perfection, discover the machines that make Sovereign more than just a club.</p>
-                    </div>
-                </article>
-            </div>
-        </main>
+          </article>
+        </div>
+      </main>
     </div>
 
     <!-- Splide JS Core -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    
+
     <!-- Main Custom JS -->
     <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>
